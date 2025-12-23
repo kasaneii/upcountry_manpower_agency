@@ -1,7 +1,7 @@
 # Upcountry Manpower Agency (UMA) | Global Recruitment Portal
 
 [![View Live Site](https://img.shields.io/badge/View-Live_Site-0070f3?style=for-the-badge&logo=vercel&logoColor=white)](https://upcountry-manpower-agency.vercel.app/)
-[![Tech Stack](https://img.shields.io/badge/Stack-WordPress_%7C_PHP_%7C_Bootstrap-777bb4?style=for-the-badge&logo=php&logoColor=white)](https://www.figma.com/proto/59oJhWX3k5Hz92kELYmN8S/Upcountry-Manpower-Agency---Sri-Lanka?page-id=0%3A1&node-id=1-2434&viewport=258%2C-881%2C0.11&t=57QNpNVIAcvJRhPf-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2434)
+[![Figma Design](https://img.shields.io/badge/Figma-Design_System-f24e1e?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/proto/59oJhWX3k5Hz92kELYmN8S/Upcountry-Manpower-Agency-Sri-Lanka?page-id=0%3A1&node-id=1-2434&viewport=258%2C-881%2C0.11&t=57QNpNVIAcvJRhPf-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=1%3A2434)
 
 ## 📱 Project Preview
 <p align="center">
