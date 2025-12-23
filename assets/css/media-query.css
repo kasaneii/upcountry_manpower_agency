@@ -1,0 +1,956 @@
+@media (max-width: 1536px) {
+  .heroImg {
+    height: 685px;
+    right: -170px;
+  }
+  .heroImgContainer {
+    height: 685px;
+  }
+}
+@media (max-width: 1440px) {
+  .heroImg {
+    height: 685px;
+    right: -80px;
+  }
+  .heroImgContainer {
+    height: 685px;
+  }
+  .heroContent h1 {
+    font-size: 56px;
+    width: 100%;
+  }
+  .heroContent {
+    width: 500px;
+  }
+  .sectionContentLeft {
+    width: 100%;
+  }
+  .heroContent p {
+    font-size: 13px;
+  }
+}
+
+/* xl */ 
+@media (max-width: 1280px) {
+  .heroImgContainer {
+    height: 600px;
+  }
+  .heroImg {
+    height: 600px;
+    right: -140px;
+  }
+  .container, .scope .container {     
+    max-width: 1024px;
+  }
+  .heroContent h1 {
+    font-size: 52px;
+  }
+  .heroContent p, .subtitle {
+    font-size: 12px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .paragraph {
+    font-size: 14px;
+  }
+  .activityCard {
+    width: calc(33.33% - 20px);
+    height: 430px;
+  }
+  .cardContent {
+    font-size: 24px;
+  }
+  .activityBg {
+    height: 620px;
+  }
+  .scope img {
+    height: 465px;
+  }
+  .awardIcon {
+    padding: 10px;
+  }
+  .awardsContent h2 {
+    font-size: 36px;
+  }
+  .awardsContent p {
+    font-size: 12px;
+  }
+  .about .flexRow {
+    gap: 10px;
+  }
+  .aboutContent h5, h3 {
+    font-size: 20px;
+  }
+  .aboutContent p {
+    font-size: 11px;
+  }
+  .vacanciesCard {
+    width: 585px;
+  }
+  .text {
+    font-size: 15px;
+  }
+  .top h2 {
+    font-size: 52px;
+  }
+
+  /* about us css styling */
+  .aboutIntroImg {
+    height: 420px;
+  }
+  .sectionLinks .link {
+    padding: 18px 30px;
+  }
+  .generalConditions .flexCol {
+    gap: 0;
+  }
+  .conditions {
+    gap: 44px;
+    padding-bottom: 80px;
+  }
+  .arrowRight, .conditionCard:nth-child(2) .arrowRight {
+    right: -77px;
+  }
+
+  /* management css styling */
+  .management .card {
+    padding: 80px 60px;
+  }
+  .management .cardImg {
+    width: 500px;
+  }
+  .memberName {
+    font-size: 36px;
+  }
+
+  /* clients css styling */
+  .clientCard {
+    width: calc(25% - 20px);
+  }
+
+  /* vacancies css styling */
+  .moreInfoContent h3 {
+    font-size: 26px;
+  }
+
+  /* contact us css styling */
+  .formContents .titleParagraph h2 {
+    font-size: 40px;
+  }
+  .input, textarea, .submit {
+    font-size: 14px;
+  }
+  .infoCardContent .paragraph {
+    font-size: 11px;
+  }
+  .infoCardContent h4 {
+    font-size: 16px;
+  }
+  .infoImg {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+  }
+  .contactInfoCard .infoCard:nth-child(3) .infoImg {
+    width: 80px;
+  }
+  .circleSm2 {
+    left: 933px;
+  }
+}  
+/* lg */ 
+@media (max-width: 1024px) {
+  .heroImg {
+    height: 520px;
+    right: -140px;
+  }
+  .container, .scope .container {     
+    max-width: 768px;
+  }
+  .navlinks {
+    display: none;
+  }
+  .heroContent h1 {
+    width: 350px;
+    font-size: 40px;
+    line-height: 56px;
+  }
+  .heroImgContainer {
+    width: 100%;
+    height: 520px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .paragraph {
+    font-size: 12px;
+  }
+  .cardContent {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .activityCard {
+    padding: 30px;
+    height: 360px;
+  }
+  .scope .flexRow {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .scope img {
+    order: 2;
+  }
+  .scope {
+    padding-bottom: 0;
+  }
+  .awardIcon {
+    width: 40px;
+    height: 40px;
+    padding: 30px;
+  }
+  .awardsContent h2 {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .awardsContent p {
+    font-size: 10px;
+  }
+  .about .flexRow {
+    padding-bottom: 70px;
+  }
+  .aboutCard {
+    width: calc(50% - 20px);
+    padding: 30px;
+  }
+  .vacancies .flexRow {
+    flex-direction: column;
+  }
+  .vacanciesCard {
+    width: 100%;
+  }
+  .vacancies h2 {
+    width: 100%;
+  }
+  footer .flexRow {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .footerContainer {
+    width: calc(50% - 60px);
+    padding: 0;
+    height: auto;
+    border: 0;
+  }
+  footer .container {
+    padding: 50px 0;
+  }
+  .top h2 {
+    font-size: 44px;
+  }
+
+  /* management css styling */
+  .management .cardImg {
+    width: 400px;
+  }
+  .memberName {
+    font-size: 24px;
+  }
+
+  /* clients css styling */
+  .clientCard {
+    width: calc(33.33% - 20px);
+  }
+
+  /* vacancies css styling */
+  .jobVacanciesContent h4 {
+    font-size: 20px;
+  }
+  .country h4 {
+    font-size: 14px;
+  }
+  .jobVacanciesCard {
+    height: 490px;
+  }
+  .moreInfo {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .viewPdf {
+    padding: 0;
+  }
+  .circleMd {
+    top: 200px;
+    left: 193px;
+  }
+  .circleLg {
+    top: -203px;
+    left: 518px;
+  }
+
+  /* achievements css styling */
+  .comAchImgOne {
+    height: 400px;
+  }
+  .comAchOne {
+    gap: 70px;
+  }
+  .achievements h2 {
+    text-align: left;
+  }
+  .awardCard {
+    width: calc(50% - 43px);
+  }
+  .comAchImgTwo {
+    height: 400px;
+  }
+  .comAchImgTwo img {
+    height: 100%;
+  }
+
+  /* photo gallery css styling */
+  .gallery .container .galleryImgs .imagen {
+    height: 200px;
+  }
+  .overlay {
+    width: 750px;
+    height: 211px;
+  }
+  .overlayText {
+    font-size: 30px;
+  }
+  #slider {
+    height: 400px;
+  }
+
+  /* contact us css styling */
+  .formContainer {
+    flex-direction: column;
+  }
+  .formContents {
+    width: 100%;
+  }
+  .contactInfoCard {
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+  .infoCard {
+    width: calc(50% - 36px);
+  }
+  .contactInfoCard .infoCard:nth-child(2) {
+    padding: 0;
+    border: none;
+  }
+  .infoCardContent h4 {
+    font-size: 20px;
+  }
+  .infoCardContent .paragraph {
+    font-size: 14px;
+  }
+  .infoImg {
+    width: 70px;
+    height: 70px;
+    padding: 24px;
+  }
+  .contactInfoCard .infoCard:nth-child(3) .infoImg {
+    width: 105px;
+  }
+  .circleSm2 {
+    top: 335px;
+    left: 679px;
+  }
+}  
+/* md */ 
+@media (max-width: 768px) {
+  .heroImgContainer {
+    height: 425px;
+  }
+  .showImg {
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+  .hideImg {
+    display: none;
+  }
+  .container, .scope .container {     
+    max-width: 640px;   
+  } 
+  h2 {
+    font-size: 36px;
+  }
+  .activityCard, .awards {
+    width: calc(50% - 20px);
+  }
+  .about .flexRow {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .ctaBtn {
+    padding: 20px 30px;
+  }
+  .top h2 {
+    font-size: 36px;
+  }
+  .hero .flexRow {
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 0;
+    gap: 100px;
+  }
+  .heroContent h1 {
+    width: auto;
+  }
+
+  /* about us css styling */
+  .arrowRight {
+    display: none;
+  }
+  .conditionCard:nth-child(2) {
+    padding-top: 0;
+  }
+  .conditions {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .conditionCard {
+    width: calc(50% - 44px);
+  }
+  .aboutIntro .flexRow {
+    flex-direction: column;
+  }
+  .aboutIntro .sectionContent, .aboutIntro .sectionSubtitle {
+    justify-content: center;
+  }
+  .aboutIntro .paragraph, .aboutIntro h2 {
+    text-align: center;
+  }
+  .sectionLinks {
+    justify-content: center;
+  }
+  .aboutIntroImg {
+    height: 560px;
+  }
+
+  /* management css styling */
+  .management .card {
+    flex-direction: column;
+  }
+  .management .cardImg {
+    width: 100%;
+  }
+  .memberName {
+    font-size: 36px;
+  }
+  .management .paragraph {
+    font-size: 14px;
+  }
+
+  /* clients css styling */
+  .clientCard {
+    width: calc(50% - 20px);
+  }
+
+  /* vacancies css styling */
+  .jobVacanciesCard {
+    width: calc(50% - 20px);
+    height: 500px;
+  }
+  .moreInfoContainer {
+    flex-direction: column;
+  }
+  .line {
+    display: none;
+  }
+  .moreInfoContent {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .moreInfoContainer p {
+    text-align: center;
+  }
+  .moreInfoContainer {
+    gap: 30px;
+  }
+  .circleMd {
+    top: 287px;
+    left: 66px;
+  }
+  .circleLg {
+    top: -178px;
+    left: 409px;
+  }
+
+  /* achievements css styling */
+  .comAchOne {
+    gap: 50px;
+    flex-direction: column;
+  }
+  .achievements .sectionSubtitle, .achievements h2 {
+    justify-content: center;
+  }
+  .achievements h2, .achievements p {
+    text-align: center;
+  }
+  .awardCard {
+    height: 224px;
+    align-items: flex-start;
+  }
+  .awardNumber {
+    height: 224px;
+  }
+  .awardCardContent {
+    height: 100%;
+    justify-content: space-between;
+  }
+  .comAchTwo {
+    gap: 50px;
+    flex-direction: column;
+  }
+  .comAchTwo .sectionContent {
+    order: 2;
+    flex-direction: column;
+  }
+
+  /* photo gallery css styling */
+  .gallery .container .galleryImgs .imagen {
+    height: 150px;
+  }
+  .overlay {
+    width: 622px;
+    height: 161px;
+  }
+  .overlayText {
+    font-size: 24px;
+  }
+  #slider {
+    height: 350px;
+  }
+  input[type=radio] {
+    left: 55%;
+  }
+
+  /* contact us css styling */
+  .contactCard {
+    padding: 80px;
+  }
+  .formContents .titleParagraph h2 {
+    font-size: 36px;
+  }
+  .infoCard {
+    width: auto;
+    border: 0;
+  }
+  .contactInfoCard .infoCard:nth-child(3) {
+    width: 300px;
+  }
+  .contactInfoCard {
+    align-items: center;
+  }
+  .circleSm2 {
+    top: 509px;
+    left: 549px;
+  }
+}  
+/* sm */
+ @media (max-width: 640px) {
+  .hero .flexRow {
+    gap: 50px;
+  }
+  .container, .scope .container {     
+    max-width: 475px;   
+  } 
+  .heroContent h1 {
+    font-size: 30px;
+    line-height: 46px;
+  }
+  .heroImgContainer {
+    height: 350px;
+  }
+  h2 {
+    font-size: 28px;
+    line-height: normal;
+  }
+  .cardContent {
+    font-size: 16px;
+  }
+  .activityCard {
+    height: 320px;
+  }
+  .scope img {
+    height: 400px;
+  }
+  .awardIcon {
+    width: 20px;
+    height: 20px;
+  }
+  .awardIcon img {
+    width: 35px;
+    height: 35px;
+  }
+  .awardsContent h2 {
+    font-size: 20px;
+  }
+  .aboutBg img {
+    width: 100%;
+  }
+  .aboutCard {
+    height: 340px;
+  }
+  .vacanciesCard {
+    height: auto;
+    flex-direction: column;
+  }
+  .vacanciesImg {
+    width: 100%;
+    height: 380px;
+  }
+  .footerContainer {
+    width: 100%;
+  }
+
+  /* about us css styling */
+  .conditionCard {
+    width: 100%;
+  }
+  .conditionCard .paragraph {
+    font-size: 14px;
+  }
+  .aboutIntroImg {
+    height: 500px;
+  }
+
+  /* management css styling */
+  .memberName {
+    font-size: 24px;
+  }
+  .memberPosition {
+    font-size: 14px;
+  }
+  .management .paragraph {
+    font-size: 12px;
+  }
+
+  /* vacancies css styling */
+  .jobVacanciesCard {
+    width: 100%;
+    height: auto;
+  }
+  .moreInfoContainer p {
+    font-size: 16px;
+  }
+  .circleLg {
+    left: 320px;
+  }
+
+  /* achievements css styling */
+  .awardCard {
+    height: auto;
+    width: 100%;
+  }
+  .awardNumber {
+    height: 172px;
+  }
+
+  /* photo gallery css styling */
+  .gallery .container .galleryImgs .imagen {
+    width: calc((100% / 2) - 20px);
+    height: 150px;
+  }
+  .overlay {
+    width: 457px;
+    height: 161px;
+  }
+  .overlayText {
+    font-size: 20px;
+  }
+  #slider {
+    width: 80%;
+    height: 300px;
+  }
+
+  /* contact us css styling */
+  .contactCard {
+    padding: 50px;
+  }
+  .formContents .titleParagraph h2 {
+    font-size: 28px;
+  }
+  .circleSm2 {
+    left: 383px;
+  }
+  .contactForm .flexRow {
+    flex-direction: column;
+  }
+ }  
+/* xs */ 
+@media (max-width: 475px) {
+  .heroContent {
+    width: 100%;
+  }
+  .hero .container {
+    padding-top: 50px;
+  }
+  .hero .flexRow {
+    flex-direction: column;
+    padding: 0;
+  }
+  .heroContent h1 {
+    width: 100%;
+    font-size: 32px;
+  }
+  .heroImgContainer {
+    height: 400px;
+  }
+  .container, .scope .container {     
+    width: 100%;
+    padding: 0 30px;
+  }
+  .ctaBtn {
+    padding: 15px 20px;
+  }
+  .ctaBtn a {
+    font-size: 14px;
+  }
+  .activityCard {
+    width: 100%;
+    height: 490px;
+    background-size: cover;
+  }
+  .cardContent {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .scope img {
+    height: 320px;
+  }
+  .awards {
+    width: 100%;
+  }
+  .awardsContent h2 {
+    font-size: 24px;
+  }
+  .awardsContent p {
+    font-size: 12px;
+  }
+  .aboutBg {
+    height: 790px;
+  }
+  .aboutCard {
+    width: 100%;
+    height: auto;
+  }
+  .aboutContent p {
+    font-size: 14px;
+  }
+  footer .container {
+    padding: 50px 30px;
+  }
+  .copyrightArea {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  /* about us css styling */
+  .aboutIntroImg {
+    height: 400px;
+  }
+  .aboutIntro {
+    padding-bottom: 50px;
+  }
+
+  /* management css styling */
+  .management .card {
+    padding: 60px 40px;
+  }
+
+  /* clients css styling */
+  .clientCard {
+    height: 200px;
+  }
+  .clientImg {
+    height: 70px;
+  }
+  .clientName {
+    font-size: 12px;
+  }
+
+  /* vacancies css styling */
+  .moreInfoContent {
+    flex-direction: column;
+  }
+  .moreInfoContainer p {
+    width: 100%;
+    font-size: 14px;
+  }
+  .circleMd {
+    top: 393px;
+    left: 1px;
+  }
+  .circleLg {
+    top: 56px;
+    left: 268px;
+  }
+
+  /* achievements css styling */
+  .comAchImgOne, .comAchImgTwo {
+    height: 300px;
+  }
+
+  /* photo gallery css styling */
+  .gallery .container .galleryImgs .imagen {
+    width: calc((100% / 2) - 20px);
+    height: 150px;
+  }
+  .overlay {
+    width: 337px;
+    height: 161px;
+  }
+  .overlayText {
+    font-size: 16px;
+  }
+  .photoGallery .container, .gallery .container {
+    padding: 0 5px;
+  }
+  #slider {
+    width: 65%;
+    height: 300px;
+  }
+  input[type=radio] {
+    left: 61%;
+  }
+
+  /* contact us css styling */
+  .infoCardContent .paragraph {
+    font-size: 12px;
+  }
+  .infoImg {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+  }
+  .contactInfoCard .infoCard:nth-child(3) .infoImg {
+    width: 80px;
+  }
+  .contactInfoCard .infoCard:nth-child(3) {
+    width: auto;
+    padding: 0;
+  }
+  .contactInfoCard, .contactCard {
+    padding: 50px 30px;
+  }
+  .infoCardContent h4 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 320px) {
+  .heroContent h1 {
+    font-size: 30px;
+  }
+  .heroContent p, .subtitle {
+    font-size: 10px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .heroImgContainer {
+    height: 330px;
+  }
+  .principalActivties, .about, .scope, .vacancies, .achievements, .contactUs, .photoGallery {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .activityCard {
+    height: 340px;
+  }
+  .cardContent {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .scope img {
+    height: 280px;
+  }
+  .aboutBg {
+    height: 890px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .contactList {
+    width: 100%;
+  }
+  .copyrightArea p {
+    font-size: 14px;
+  }
+  .sideMenu {
+    width: 100%;
+  }
+  .vacanciesCard {
+    padding: 30px 20px;
+  }
+  .vacanciesImg {
+    height: 200px;
+  }
+
+  /* vacancies css styling */
+  .circleLg {
+    left: 225px;
+  }
+
+  /* about us css styling */
+  .aboutIntroImg {
+    height: 300px;
+  }
+  .sectionLinks {
+    flex-direction: column;
+  }
+
+  /* management css styling */
+  .management .card {
+    gap: 30px;
+  }
+  .memberName {
+    font-size: 18px;
+  }
+  .memberPosition {
+    font-size: 12px;
+  }
+
+  /* clients css styling */
+  .clientCard {
+    width: 100%;
+  }
+
+  /* achievements css styling */
+  .comAchImgOne, .comAchImgTwo {
+    height: 250px;
+  }
+  .awardNumber, .awardCard {
+    height: 224px;
+  }
+
+  /* photo gallery css styling */
+  .overlay {
+    width: 283px;
+    height: 161px;
+  }
+  .overlayText {
+    font-size: 16px;
+  }
+  .photoGallery .container, .gallery .container {
+    padding: 0 5px;
+  }
+
+  /* contact us css styling */
+  .infoCard {
+    padding: 0;
+  }
+  .contactInfoCard .infoCard:nth-child(3) .infoImg {
+    width: 95px;
+  }
+  .circleSm2 {
+    top: 607px;
+    left: 166px;
+  }
+}
